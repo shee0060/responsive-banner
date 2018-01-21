@@ -11,3 +11,62 @@ main {
   color: #fff;
   border: 3px solid #97a49b;
 }
+
+.btn:hover {
+  color: #efefef;
+  background-color: #fff;
+  border: 3px solid #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 60em) {
+
+  main {
+    background-color: transparent;
+    max-height: 500px;
+  }
+
+  .bg-transition {
+    position: relative;
+    padding-top: 1em;
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .5));
+  }
+
+  .content {
+    position: relative;
+    padding-top: 16.2em;
+  }
+
+  .btn {
+    border: 3px #fff solid;
+  }
+
+  .button {
+    text-align: right;
+  }
+
+  img {
+    overflow: hidden;
+    position: absolute;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .bg-transition {
+    background-image: linear-gradient(to bottom, transparent, transparent, rgba(73, 85, 98, .8));
+  }
+
+  .content {
+    padding-top: 14em;
+  }
+
+}
